@@ -43,6 +43,10 @@ p {
   padding-right: 30%;
 }
 
+p.full {
+  padding-right: 0;
+}
+
 a {
   color: #9DC879;
   text-decoration: none;
