@@ -8,6 +8,7 @@ GEM
     nanoc3 (3.1.6)
       cri (>= 1.0.0)
     rack (1.2.1)
+    rainpress (1.0)
 
 PLATFORMS
   ruby
@@ -16,3 +17,4 @@ DEPENDENCIES
   mime-types
   nanoc
   rack
+  rainpress
