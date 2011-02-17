@@ -1,14 +1,14 @@
 #wrapper {
- width: 867px;
- position: relative;
- margin-left: auto;
- margin-right: auto;
+  width: 867px;
+  min-height: 100%;
+  position: relative;
+  margin: 0 auto;
 }
 
 #logo {
   width: 294px;
   text-indent: -99999px;
-  margin-top: 28px;
+  padding-top: 28px;
 }
 
 #logo img {
@@ -19,7 +19,7 @@
 
 #promo {
   position: absolute;
-  top: 0;
+  top: 28px;
   right: 0;
 }
 
@@ -29,7 +29,7 @@
 
 #content {
   min-height: 320px;
-  padding-top: 1px;
+  padding: 1px 0 200px;
   position: relative;
 }
 

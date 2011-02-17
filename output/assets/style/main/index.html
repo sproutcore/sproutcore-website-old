@@ -6,6 +6,11 @@
   text-align: center;
 }
 
+html,
+body {
+  height: 100%;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -117,7 +122,9 @@ body {
 /* Footer */
 
 #footer {
-  margin-top: 100px;
+  height: 162px;
+  position: relative;
+  margin-top: -162px;
   font-size: 13px;
   background: #1b1e24;
   -webkit-box-shadow: inset 0 1px 7px rgba(0, 0, 0, .6);
@@ -128,13 +135,12 @@ body {
 #footer > div {
   width: 867px;
   margin: 0 auto;
-  padding: 20px 0;
 }
 
 #footer .col {
   width: 290px;
   display: inline-block;
-  margin-right: 70px;
+  margin: 20px 70px 0 0;
   vertical-align: top;
 }
 
@@ -165,6 +171,7 @@ body {
 
 #html5 {
   display: inline-block;
+  margin-top: 40px;
 }
 
 #html5:hover {
