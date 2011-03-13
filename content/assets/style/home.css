@@ -23,8 +23,22 @@
   right: 0;
 }
 
-#promo img {
+#promo img,
+#github img,
+#github:hover {
   border: 0;
+}
+
+#github {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media all and (max-width: 1200px) {
+  #github {
+    display: none; 
+  }
 }
 
 #content {
